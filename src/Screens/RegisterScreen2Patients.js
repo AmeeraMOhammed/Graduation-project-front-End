@@ -6,7 +6,7 @@ import {
     Text,
     Image,
     KeyboardAvoidingView,
-    Keyboard,
+    Modal,
     TouchableOpacity,
     ScrollView,
 } from 'react-native';
@@ -14,9 +14,11 @@ import {
 import Loader from './Components/loader';
 import {images , colors} from '../assets/assets';
 import Input from '../assets/input';
-
+import Axios from '../Network/axios';
 import Parse from 'parse/react-native';
 import { useNavigation, useRoute } from '@react-navigation/native';
+import {launchImageLibrary} from 'react-native-image-picker';
+import RNFS from 'react-native-fs';
 
 const RegisterScreen2Patients = ({navigation})=> {
     const route = useRoute();

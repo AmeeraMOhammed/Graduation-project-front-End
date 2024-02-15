@@ -213,7 +213,7 @@ if (isRegistraionSuccess) {
                         source={images.female}
                         style={{width:20,height:20,marginLeft:10,marginTop:-4}}
                     />)}
-                    <Text style ={{fontsize:13,color: colors.darkBlue,marginLeft:5,marginTop:-2}}>{genderOption}</Text>
+                    <Text style ={{color: colors.darkBlue,marginLeft:5,marginTop:-2}}>{genderOption}</Text>
                 </TouchableOpacity>
                 );
             })}
