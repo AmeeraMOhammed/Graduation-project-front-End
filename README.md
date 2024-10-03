@@ -38,7 +38,7 @@ FaciaFix addresses the limitations of traditional diagnostic methods by providin
 - **Development Tools**: Android Studio is used for testing and deployment on Android devices, with Redux Toolkit for state management.
 
 ## Publication
-This project has been published in the Journal of Physics: Conference Series. You can access the full paper here:
+This project has been published in the IOP Journal. You can access the full paper here:
 [FaciaFix: AI-Based Mobile Application for Diagnosis and Classification of Facial Paralysis](https://iopscience.iop.org/article/10.1088/2057-1976/ad8094)
 
 ## Contributions
